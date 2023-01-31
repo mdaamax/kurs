@@ -1,24 +1,65 @@
-
-h2 {
-    transform: rotate(90deg);
-    transform-origin: left;
-    margin-left: 1px;
-    color: #852c98;
+body{
+    margin: 0;
 }
-header{
+.brand{
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(66,66,222,1) 43%, rgba(0,212,255,1) 100%);
+}
+.text_logo{
+    height: 400px;
+    width: 450px;
+    position: absolute;
+    top: 33%;
+    left: 15%;
+    color: #c1c1e8;
+}
+.text_logo>h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#000000, #262626);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.menu{
     height: 100vh;
-    background: #f6cba3;
+    width: 6vh;
+    background:black;
+    position: relative;
 
 }
+#block{
+    writing-mode: vertical-rl;
+    transform: rotateZ(360deg);
+    color: #32e7cc;
+    position: absolute;
+    top: 40%;
+    text-align: left;
+    font-size: 20px;
+
+}
+/*h2 {*/
+/*    transform: rotate(90deg);*/
+/*    transform-origin: left;*/
+/*    margin-left: 1px;*/
+/*    color: #852c98;*/
+/*}*/
+/*header{*/
+/*    height: 100vh;*/
+/*    background: #f6cba3;*/
+
+/*}*/
 
 .about{
     padding-bottom: 20px;
     padding-top: 100px;
     text-align: center;
 }
+
 .about_us{
     padding-bottom: 100px;
+
 }
+
 .our_works{
     padding-top: 80px;
     background: #dedede;
@@ -30,17 +71,21 @@ header{
 card{
     margin-top: 120px;
 }
+
 .main_mix_menu{
     padding-top: 20px;
     padding-bottom: 40px
 ;
 }
+
 section{
     padding-bottom: 10PX;
 }
+
 .back{
     background: #dedede;
 }
+
 .card{
     background: #ffffff;
     --bs-card-border-width: 0;
@@ -49,14 +94,17 @@ section{
     margin-bottom: 10px; /* для центра */
     --bs-card-border-radius: 3em;
 }
+
 .more{
     font-size: 20px;
     padding-bottom: 20px;
 }
+
 .why_shoose_us{
     padding-top: 100px;
     padding-bottom: 40px;
 }
+
 .img-fluid {
     max-width: 100%;
     height: auto;
