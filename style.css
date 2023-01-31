@@ -16,6 +16,9 @@ header{
     padding-top: 100px;
     text-align: center;
 }
+.about_us{
+    padding-bottom: 100px;
+}
 .our_works{
     padding-top: 80px;
     background: #dedede;
@@ -39,10 +42,54 @@ section{
     background: #dedede;
 }
 .card{
-    background: #dedede;
+    background: #ffffff;
     --bs-card-border-width: 0;
+    margin: 0 auto; /* для центра */
+    float: none; /* для центра */
+    margin-bottom: 10px; /* для центра */
+    --bs-card-border-radius: 3em;
 }
 .more{
     font-size: 20px;
     padding-bottom: 20px;
+}
+.why_shoose_us{
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding-top: 40px;
+}
+
+.ny{
+    height: 100vh;
+}
+/* Container holding the image and the text */
+.ny {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 130px;
+    left: 50em;
+}
+.centered>h1  {
+    font-size: 40px;
+}
+.rightimg{
+    float: left;
+}
+
+.our_team{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.our_t{
+    padding-bottom: 30px;
 }
