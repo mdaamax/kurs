@@ -1,0 +1,48 @@
+
+h2 {
+    transform: rotate(90deg);
+    transform-origin: left;
+    margin-left: 1px;
+    color: #852c98;
+}
+header{
+    height: 100vh;
+    background: #f6cba3;
+
+}
+
+.about{
+    padding-bottom: 20px;
+    padding-top: 100px;
+    text-align: center;
+}
+.our_works{
+    padding-top: 80px;
+    background: #dedede;
+}
+.colons{
+    background: #dedede;
+}
+
+card{
+    margin-top: 120px;
+}
+.main_mix_menu{
+    padding-top: 20px;
+    padding-bottom: 40px
+;
+}
+section{
+    padding-bottom: 10PX;
+}
+.back{
+    background: #dedede;
+}
+.card{
+    background: #dedede;
+    --bs-card-border-width: 0;
+}
+.more{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
