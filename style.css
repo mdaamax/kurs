@@ -6,19 +6,19 @@ body{
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(66,66,222,1) 43%, rgba(0,212,255,1) 100%);
 }
 .text_logo{
-    height: 400px;
-    width: 450px;
+    height: 200px;
+    width: 310px;
     position: absolute;
     top: 33%;
     left: 15%;
     color: #c1c1e8;
 }
 .text_logo>h1 {
-    font-size:70px;
+    font-size:60px;
     background: -webkit-linear-gradient(#000000, #262626);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-.text_logo>s
+
 }
 .menu{
     height: 100vh;
@@ -157,14 +157,6 @@ section{
 
 /* For Skills Section*/
 
-.skills-content h5{
-    font-size:18px;
-    color:#000;
-}
-.skills-content h6{
-    font-size:14px;
-
-}
 
 .skillbar {
     background: #000000;
@@ -172,25 +164,55 @@ section{
     height:30px;
     margin-bottom:10px;
     position: relative;
-    transition-delay: 0s;
-    transition-duration: .4s;
-    transition-property: width, background-color;
-    transition-timing-function: linear;
-    width: 100%;
+    width: 60%;
+}
+.skillbar_1 {
+    background: #000000;
+    display: block;
+    height:30px;
+    margin-bottom:10px;
+    position: relative;
+    width: 50%;
+}
+.skillbar_2 {
+    background: #000000;
+    display: block;
+    height:30px;
+    margin-bottom:10px;
+    position: relative;
+    width: 30%;
+}
+.skillbar_3 {
+    background: #000000;
+    display: block;
+    height:30px;
+    margin-bottom:10px;
+    position: relative;
+    width:80%;
+}
+.skillbar_4 {
+    background: #000000;
+    display: block;
+    height:30px;
+    margin-bottom:10px;
+    position: relative;
+    width: 40%;
+}
+.skillbar_5 {
+    background: #000000;
+    display: block;
+    height:30px;
+    margin-bottom:10px;
+    position: relative;
+    width: 60%;
 }
 
-.skillbar-bar.blue {
-    background-color: #292929;
-    height: 25px;
-    width: 0;
-}
 .skillbar-title {
     color: #323232;
     font-size: 12px;
     left:15px;
-    position: absolute;
-    top: -5px;
-    width:100%;
+    position: relative;
+    top: 5px;
 }
 .skillbar-title h3{
     font-size:14px;
