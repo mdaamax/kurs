@@ -154,3 +154,65 @@ section{
     padding-bottom: 30px;
     color: #000000;
 }
+
+/* For Skills Section*/
+
+.skills-content h5{
+    font-size:18px;
+    color:#000;
+}
+.skills-content h6{
+    font-size:14px;
+
+}
+
+.skillbar {
+    background: #000000;
+    display: block;
+    height:30px;
+    margin-bottom:10px;
+    position: relative;
+    transition-delay: 0s;
+    transition-duration: .4s;
+    transition-property: width, background-color;
+    transition-timing-function: linear;
+    width: 100%;
+}
+
+.skillbar-bar.blue {
+    background-color: #292929;
+    height: 25px;
+    width: 0;
+}
+.skillbar-title {
+    color: #323232;
+    font-size: 12px;
+    left:15px;
+    position: absolute;
+    top: -5px;
+    width:100%;
+}
+.skillbar-title h3{
+    font-size:14px;
+    color: #ffffff;
+
+}
+
+input{
+    margin: auto;
+}
+.form-control{
+    width: 60%;
+    text-align: center;
+    border-radius: 33px;
+    background-color: black;
+    color: cyan;
+    font-size: 20px;
+}
+textarea.form-control {
+    min-height: calc(1.5em + 0.75rem + 2px);
+    margin: auto;
+}
+input::placeholder {
+    font-weight: bold;
+}
