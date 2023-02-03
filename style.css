@@ -15,7 +15,7 @@ body{
 }
 .text_logo>h1 {
     font-size:60px;
-    background: -webkit-linear-gradient(#000000, #262626);
+    background: -webkit-linear-gradient(#000000, #050541);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
