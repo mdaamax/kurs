@@ -155,9 +155,13 @@ section{
     color: #000000;
 }
 
-/* For Skills Section*/
-
-
+.our_skills{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.our_skill{
+    padding-bottom: 50px;
+}
 .skillbar {
     background: #000000;
     display: block;
@@ -217,19 +221,22 @@ section{
 .skillbar-title h3{
     font-size:14px;
     color: #ffffff;
-
 }
 
+#brands{
+    padding-top:50px;
+}
 input{
     margin: auto;
 }
 .form-control{
-    width: 60%;
+    width: 45%;
     text-align: center;
     border-radius: 33px;
     background-color: black;
     color: cyan;
     font-size: 20px;
+    border: 0;
 }
 textarea.form-control {
     min-height: calc(1.5em + 0.75rem + 2px);
@@ -237,4 +244,23 @@ textarea.form-control {
 }
 input::placeholder {
     font-weight: bold;
+}
+.thank_you{
+    background: #cecece;
+}
+
+.contact_us{
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 150px;
+    /*background: rgb(2,0,36);*/
+    /*background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(66,66,222,0.8799894957983193) 47%, rgb(17, 100, 119) 88%);*/
+}
+.contact_u{
+    padding-bottom: 30px;
+    color: #000000;
+}
+
+.down{
+    padding-bottom: 30px;
 }
