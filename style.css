@@ -121,15 +121,6 @@ section{
     padding-top: 40px;
 }
 
-.ny{
-    height: 100vh;
-}
-/* Container holding the image and the text */
-.ny {
-    position: relative;
-    text-align: center;
-    color: #ffffff;
-}
 
 .centered {
     position: absolute;
@@ -245,6 +236,9 @@ textarea.form-control {
 input::placeholder {
     font-weight: bold;
 }
+.carusrel{
+    background: #cecece;
+}
 .thank_you{
     background: #cecece;
 }
@@ -264,11 +258,11 @@ input::placeholder {
 .down{
     padding-bottom: 30px;
 }
-footer{
+footer {
     padding-top: 150px;
     background-color: black;
     text-align: center;
-    color:white ;
+    color: white;
     padding-bottom: 150px;
-
+    font-size: 20px;
 }
