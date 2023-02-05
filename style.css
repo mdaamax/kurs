@@ -264,3 +264,11 @@ input::placeholder {
 .down{
     padding-bottom: 30px;
 }
+footer{
+    padding-top: 150px;
+    background-color: black;
+    text-align: center;
+    color:white ;
+    padding-bottom: 150px;
+
+}
