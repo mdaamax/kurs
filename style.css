@@ -136,7 +136,7 @@ section{
 
 .our_team{
     text-align: center;
-    padding-top: 200px;
+    padding-top: 120px;
     padding-bottom: 100px;
     /*background: rgb(2,0,36);*/
     /*background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(66,66,222,0.8799894957983193) 47%, rgb(17, 100, 119) 88%);*/
@@ -259,10 +259,10 @@ input::placeholder {
     padding-bottom: 30px;
 }
 footer {
-    padding-top: 150px;
+    padding-top: 100px;
     background-color: black;
     text-align: center;
     color: white;
-    padding-bottom: 150px;
-    font-size: 20px;
+    padding-bottom: 100px;
+
 }
