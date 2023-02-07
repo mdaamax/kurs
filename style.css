@@ -151,6 +151,7 @@ section{
     padding-bottom: 10px;
 }
 .our_skill{
+    padding-top: 60px;
     padding-bottom: 50px;
 }
 .skillbar {
@@ -265,4 +266,17 @@ footer {
     color: white;
     padding-bottom: 50px;
 
+}
+.news{
+    background: black;
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+.planet_n{
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+.videos{
+    background: black;
 }
